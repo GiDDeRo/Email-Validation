@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Email Validation</title>
+</head>
+<body>
+    <div class="container">
+        <div id="icon">
+            <i class="fas fa-paper-plane"></i>
+        </div>
+        <div>
+            <label for="fullName">Full Name</label>
+            <input type="text" name="fullName" id="fullName" placeholder="Enter your full name">
+            <small id="fullNameError"></small>
+        </div>
+        <div>
+            <label for="phoneNo">Phone No.</label>
+            <input type="text" name="phoneNo" id="phoneNo" placeholder="1234567890">
+            <small id="phoneError"></small>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <small id="emailError"></small>
+        </div>
+        <div>
+            <label for="message">Your message</label>
+            <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+            <small id="msgError">Write something!</small>
+        </div>
+        <input type="button" value="Submit" id="submit">
+        <small id="submitError">Invalid data. Check your input</small>
+    </div>
+
+    <footer>
+        <a href="" id="p-link">Coded by Gideon</a>
+        <a href="https://github.com/GiDDeRo"><i class="fab fa-github github fa-2x"></i></a>
+        <a href="https://twitter.com/giddero_xoxo" id="twitter" target="_blank"><img src="./x.svg"></a>
+        <a href="https://api.whatsapp.com/send?phone=2349037429857" target="_blank"><i class="fab fa-whatsapp whatsapp"></i></a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
